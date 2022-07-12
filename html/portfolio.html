@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <section id="header">
+        <nav id="navbar">
+            <a href=""> <img src="../Images/logo.png"> </a>
+
+            <div class="navbar-items" id="navlink">
+                <img class="icons" src="../Images/menu.png" alt="" onclick="hidefunc()">
+                <ul>
+                    <li> <a href="portfolio.html">Home </a></li>
+                    <li> <a href="about.html">About </a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li><a href="">Certificate</a></li>
+                    <li><a href="">Facilities</a></li>
+                </ul>
+
+            </div>
+            <img class="icons" src="../Images/menu.png" alt="" onclick="showfunc()">
+
+        </nav>
+
+        <div id="content-box">
+            <h1>Punjab University Lahore</h1>
+            <p>A lot of oppoertunities are waitin a head.
+                <br>Explore the website
+                to learn about it
+            </p>
+
+            <a class="btn">click To Explore more</a>
+        </div>
+    </section>
+
+
+    <section id="course-content">
+
+
+        <h3>Courses</h3>
+        <p>we offer follwoing courses here in PU lahore</p>
+
+        <div class="box-row row">
+            <div class="box-column">
+                <h3>Bachelors</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Cumque ipsa pariatur quidem?Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Rem, eligendi.</p>
+            </div>
+            <div class="box-column">
+                <h3>Masters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Cumque ipsa pariatur quidem?Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Rem, eligendi.</p>
+            </div>
+            <div class="box-column">
+                <h3>Phd</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Cumque ipsa pariatur quidem?Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Rem, eligendi.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="campus">
+        <h3>Campuses</h3>
+        <p>Here is the list of our global campuses</p>
+
+        <div class="campus-row row">
+            <div class="campus-column">
+                <img src="../Images/london.png" alt="">
+
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-column">
+                <img src="../Images/newyork.png" alt="">
+
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-column">
+                <img src="../Images/washington.png" alt="">
+
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="facilities">
+        <h3>Facilities</h3>
+        <p>Some glimpse of facilities available at campus site and hostel</p>
+
+        <div class="facilities-row row">
+
+            <div class="facilities-column">
+                <div class="image-div">
+                    <img src="../Images/library.png" alt="">
+                </div>
+                <h4>LIBRARY</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, error?</p>
+            </div>
+
+            <div class="facilities-column">
+                <div class="image-div">
+                    <img src="../Images/basketball.png" alt="">
+                </div>
+                <h4>BASKETBALL</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, error?</p>
+            </div>
+
+            <div class="facilities-column">
+                <div class="image-div">
+                    <img src="../Images/cafeteria.png" alt="">
+                </div>
+                <h4>CAFETERIA</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, error?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="reviews">
+        <h3>What Our Students Say ?</h3>
+
+        <div class="reviews-row row">
+
+            <div class="reviews-column">
+                <img src="../Images/user2.jpg" alt="">
+
+                <div class="review-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam provident architecto
+                        repellendus quo natus tempore ipsum eaque voluptas laborum maiores, facilis, ex corrupti modi
+                        optio blanditiis expedita libero debitis?</p>
+                    <h4>Umair Hassan</h4>
+                </div>
+
+
+            </div>
+
+            <div class="reviews-column">
+                <img src="../Images/user1.jpg" alt="">
+
+                <div class="review-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam provident architecto
+                        repellendus quo natus tempore ipsum eaque voluptas laborum maiores, facilis, ex corrupti modi
+                        optio blanditiis expedita libero debitis?</p>
+                    <h4>Ansha sarwar</h4>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="action">
+        <h3>Click here to contact us for more details</h3>
+        <a href="" class="btn">Contact Us</a>
+    </section>
+
+
+    <footer>
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  quo vitae consequuntur minus esse ullam
+            <br> delectus possimus cumque animi dolorem!</p>
+            <p>All copyrights &copy; are reserved</p>
+    </footer>
+
+    <script>
+        var elem = document.getElementById("navlink");
+      //  var elem2=document.getElementById("header");
+
+        function hidefunc() {
+            elem.style.top = "-230px";
+           // elem.style.top="0px";
+        }
+        function showfunc() {
+            elem.style.top = "0px";
+        }
+    </script>
+</body>
+
+</html>

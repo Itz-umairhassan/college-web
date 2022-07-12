@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/*------------- header section css  ----------*/
+#header {
+    min-height: 50vh;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url('../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+
+.navitem {
+    display: inline-block;
+    margin: 8px 20px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.navlinks {
+    position: relative;
+    top: -7px;
+}
+
+.navitem::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: orangered;
+    position: absolute;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navitem:hover::after {
+    width: 100%;
+}
+
+
+#content-box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    ;
+}

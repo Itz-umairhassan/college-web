@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+
+
+</head>
+
+<body>
+    <section id="subheader">
+        <nav id="navbar">
+            <a href=""> <img src="../Images/logo.png"> </a>
+
+            <div class="navbar-items" id="navlink">
+                <p class="icons" onclick="hidefunc()">out</p>
+                <ul>
+                    <li> <a href="portfolio.html">Home </a></li>
+                    <li> <a href="about.html">About </a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li><a href="">Certificate</a></li>
+                    <li><a href="">Facilities</a></li>
+                </ul>
+
+            </div>
+            <p class="icons" onclick="showfunc()">In</p>
+
+        </nav>
+
+        <div id="content-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="aboutus-row row">
+            <div class="aboutus-column">
+                <h3>PU is high ranked national university of Pakistan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo eligendi cumque debitis
+                    temporibus, eum impedit. Neque sint temporibus nobis praesentium voluptatibus harum minus magni,
+                    repudiandae ad eligendi omnis iure est. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolore, porro aut similique ut quas libero saepe culpa eveniet quidem, recusandae magnam tempora,
+                    ullam itaque repellendus aliquam aliquid! Rem, esse suscipit.</p>
+            
+            <a class="btn red-btn" href="">Explore More...</a>
+                </div>
+
+
+            <div class="aboutus-column">
+                <img src="../Images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  quo vitae consequuntur minus esse ullam
+            <br> delectus possimus cumque animi dolorem!</p>
+            <p>All copyrights &copy; are reserved</p>
+    </footer>
+
+    <script>
+        var elem = document.getElementById("navlink");
+        
+        function hidefunc() {
+            elem.style.top = "-230px";
+        }
+        function showfunc() {
+            elem.style.top = "0px";
+        }
+    </script>
+</body>
+
+</html>

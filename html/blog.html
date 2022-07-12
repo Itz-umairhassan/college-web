@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+    <section id="subheader">
+        <nav id="navbar">
+            <a href=""> <img src="../Images/logo.png"> </a>
+
+            <div class="navbar-items" id="navlink">
+                <p class="icons" onclick="hidefunc()">out</p>
+                <ul>
+                    <li> <a href="portfolio.html">Home </a></li>
+                    <li> <a href="about.html">About </a></li>
+                    <li> <a href="">Blog</a></li>
+                    <li><a href="">Certificate</a></li>
+                    <li><a href="">Facilities</a></li>
+                </ul>
+
+            </div>
+            <p class="icons" onclick="showfunc()">In</p>
+
+        </nav>
+
+        <div id="content-box">
+            <h1>See blogs about Punjab University</h1>
+        </div>
+    </section>
+
+
+    <section id="blog">
+        <div class="blogrow row">
+            <div id="blog-left">
+                <img src="../Images/certificate.jpg" alt="">
+
+                <h2>Our certificates and online courses for 2022</h2>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, cumque magnam. Sint minus
+                    accusamus minima, cumque obcaecati eius. Neque incidunt doloremque laudantium excepturi ducimus
+                    cumque quo, vel facilis? Debitis dolores delectus placeat recusandae modi accusamus quae similique
+                    alias cumque deserunt rerum obcaecati, atque rem adipisci eius cum asperiores veniam sed et voluptas
+                    impedit aperiam quia nobis. Hic, tempore laboriosam ratione quod explicabo mollitia cum at
+                    reiciendis qui. Qui doloribus dicta soluta est porro ex repellendus consequuntur. Ratione minus
+                    suscipit nam dolor voluptas explicabo et excepturi voluptatem, nostrum perferendis, iste dolores.
+                    Recusandae beatae animi obcaecati laborum numquam atque laboriosam pariatur asperiores?
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quo molestias, cupiditate eum cum at
+                    reiciendis delectus libero, excepturi amet nobis, a tempore. Quos eaque, magnam nostrum molestiae
+                    fugit non quidem consequuntur, temporibus vitae unde velit, laudantium quam repudiandae qui deleniti
+                    labore cum earum provident reiciendis est libero consequatur et atque perspiciatis! Dolorem
+                    doloremque commodi error illum eveniet, ratione quae, magni ab, possimus quis dolore beatae labore
+                    mollitia nulla aut maxime culpa nobis? Laboriosam voluptas asperiores error illum quibusdam porro in
+                    dolorum aperiam totam! Provident fuga a doloribus delectus iste atque, neque magni adipisci, non eos
+                    dolorem sint necessitatibus temporibus.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptate sed pariatur magnam,
+                    sequi dignissimos molestias adipisci quidem sit assumenda corrupti. Earum molestias, voluptatum
+                    recusandae facilis necessitatibus placeat? Corporis impedit eum nesciunt eos eius nobis placeat
+                    magni qui exercitationem laborum temporibus ea accusantium mollitia, animi obcaecati inventore,
+                    vitae maxime sed magnam culpa optio fuga perspiciatis nam omnis. Sunt accusamus dolore, voluptate
+                    maiores est incidunt dicta, animi id, blanditiis ad nemo iusto nostrum excepturi ipsa autem? In, ab
+                    aperiam libero eius numquam quam sequi! Doloremque laboriosam consequatur, eius, repudiandae natus,
+                    amet nisi quae tempore ipsum in provident veritatis et maiores numquam.
+                </p>
+
+                <div id="comment-box">
+                    <h2>leave a comment</h2>
+                    <form action="">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea name="message-text" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn red-btn">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div id="blog-right">
+                <h4>Courses we offer</h4>
+                <div>
+                    <span>data structure </span>
+                    <span>23</span>
+                </div>
+
+                <div>
+                    <span>Algorithms </span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Web developement</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Data base</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Linear Algebra</span>
+                    <span>14</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <h5>About Us</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. quo vitae consequuntur minus esse ullam
+            <br> delectus possimus cumque animi dolorem!
+        </p>
+        <p>All copyrights &copy; are reserved</p>
+    </footer>
+
+    <script>
+        var elem = document.getElementById("navlink");
+
+        function hidefunc() {
+            elem.style.top = "-230px";
+        }
+        function showfunc() {
+            elem.style.top = "0px";
+        }
+    </script>
+</body>
+
+</html>
